@@ -5,7 +5,7 @@ NetworkDIY
 
 这里是 CS144 和 CS168 的混合学习路线，基本思路是学 CS168 的资料而做 CS144 的作业。CS168 公开了最新年份的电子版教材和视频，授课老师幽默风趣；CS144 提供的作业基于现代 C++，因此这条学习路线能同时满足学习计网和现代 C++ 的需求。
 
-CS144 Fall 2025 的 starter code 被备份在本仓库中，实验文档及其中英对照（机翻）在 [handouts](./handouts/) 文件夹中，希望对你有帮助。
+CS144 Fall 2025 的 Starter Code 被备份在本仓库中，你可以直接 Clone 本仓库，以此为基础开始 Lab 0 的编写。实验文档及其中英对照（机翻）在 [handouts](./handouts/) 文件夹中，希望对你有帮助。
 
 食用方法：日程表划分为了多个阶段，每个阶段的学习流程如下：
 1. 学习这个阶段的 CS168 Lectures 和 Readings，可以在 [这个Youtube视频列表](https://www.youtube.com/playlist?list=PL0_XloRC3MWs5MylcqPFEeTCx0RQocrD7) 找到课程录屏。
