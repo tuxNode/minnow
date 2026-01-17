@@ -20,7 +20,7 @@ Socket::Socket( const int domain, const int type, const int protocol )
 //! \param[in] type is `fd`'s type; throws std::runtime_error if wrong value is supplied
 //! \param[in] protocol is `fd`'s protocol; throws std::runtime_error if wrong value is supplied
 Socket::Socket( FileDescriptor&& fd, int domain, int type, int protocol ) // NOLINT(*-swappable-parameters)
-  : FileDescriptor( move( fd ) )
+  : FileDescriptor( std::move( fd ) )
 {
   int actual_value {};
   socklen_t len {};
